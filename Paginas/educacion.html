@@ -61,22 +61,68 @@ c28 0 135 -5 238 -11 211 -13 230 -9 241 50 10 49 -7 79 -50 90 -98 26 -459
     <section>
 
 
-        <h2>Informacion Personal</h2>
-        <img src="IMG/mifoto.jpg">
+        <h2>Educacion</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Año</th>
+                    <th>Institucion</th>
+                    <th>Lugar</th>
+                    <th>¿Culmino?</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2014</td>
+                    <td>Instituto Oficial Juventud Hondureña</td>
+                    <td>Ocotepeque</td>
+                    <td>Bachillerato Tecnico Profesional en Informatica</td>
+                </tr>
+                <tr>
+                    <td>2019</td>
+                    <td>Universidad Catolica de Honduras</td>
+                    <td>San Pedro Sula</td>
+                    <td>Ingenieria en Ciencias de la Computacion</td>
+                </tr>
+            </tbody>
+        </table>
 
     </section>
 
-    <section>
 
-        <p>
-            <h2>Perfil</h2>
-            Soy ingeniero en ciencias de la computacion, graduado en el año 2019 en la Universidad Catolica de Honduras,
-            me gusta la programacion y aprender nuevas cosas, hablo los siguientes idiomas:
-            <ul>
-                <li>Español (100%)</li>
-                <li>Ingles (50%)</li>
-            </ul>
-        </p>
+    <section>
+<h2>Agregar Estudios</h2>
+<form >
+
+    <p>
+        <label for="anio">Año: </label>
+        <br>
+        <select name="anio">
+            <option value="1">2016</option>
+            <option value="1">2017</option>
+            <option value="1">2018</option>
+            <option value="1">2019</option>
+            <option value="1">2020</option>
+        </select>
+    </p>
+
+    <p>
+        <label for="institucion">Institucion:</label>
+        <br>
+        <input type="text" name="institucion">
+    </p>
+
+    <p>
+        <label for="lugar">Lugar:</label>
+        <br>
+        <input type="text" name="lugar">
+    </p>
+
+    <p>
+        <input type="submit" value="Enviar">
+    </p>
+</form>
+     
 
     </section>
 
